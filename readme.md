@@ -6,7 +6,7 @@ A reference implementation of a ruby library that sends log data to Heroku's Log
 
 ```ruby
 require 'lpxc'
-Lpxc.Start
+Lpxc.start
 Lpxc.puts(logplex_token, "hello world")
 ```
 
